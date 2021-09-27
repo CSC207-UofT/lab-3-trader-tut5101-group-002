@@ -14,6 +14,7 @@ public class Raptor implements Tradable, Drivable {
      * Get the price of a Raptor
      * @return the price of the Raptor instance
      */
+    @Override
     public int getPrice() { return this.price;}
 
     /**
@@ -29,6 +30,7 @@ public class Raptor implements Tradable, Drivable {
     /**
      * Increase the maximum speed of this Raptor.
      **/
+    @Override
     public void upgradeSpeed() {
         if (this.maxSpeed < 299792358) {
             this.maxSpeed += 100;
@@ -38,6 +40,7 @@ public class Raptor implements Tradable, Drivable {
     /**
      * Decrease the maximum speed of this Raptor.
      **/
+    @Override
     public void downgradeSpeed() {
         if (this.maxSpeed > 100) {
             this.maxSpeed -= 100;
@@ -50,6 +53,7 @@ public class Raptor implements Tradable, Drivable {
      *
      * @return    The current maximum speed of this Raptor.
      **/
+    @Override
     public int getMaxSpeed() { return this.maxSpeed; }
 
 }
