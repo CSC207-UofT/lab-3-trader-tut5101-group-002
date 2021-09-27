@@ -1,9 +1,9 @@
 public class Dragon implements Tradable, Domesticatable, Drivable{
 
-    private int Speed;
+    private int speed;
 
     public Dragon() {
-        this.Speed = 31415926;
+        this.speed = 31415926;
     }
 
     @Override
@@ -13,17 +13,17 @@ public class Dragon implements Tradable, Domesticatable, Drivable{
 
     @Override
     public void upgradeSpeed() {
-        this.Speed *= 2;
+        this.speed *= 2;
     }
 
     @Override
     public void downgradeSpeed() {
-        this.Speed /= 2;
+        this.speed /= 2;
     }
 
     @Override
     public int getMaxSpeed() {
-        return this.Speed;
+        return this.speed;
     }
 
     @Override
