@@ -9,6 +9,7 @@ public class car implements Tradable, Drivable{
         this.collection = collection;
     }
 
+
     public int getPrice(){
         return 207;
     }
