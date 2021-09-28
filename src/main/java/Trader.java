@@ -97,8 +97,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
-                new Raptor(),
-                new car("why", 10, 100)
+                new Raptor()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
